@@ -15,12 +15,12 @@
    "algorithm-type-name": "TestAlgo",
 
    // Algorithm language selector - options CSharp, Python
-   //"algorithm-language": "CSharp",
-   "algorithm-language": "Python",
+   "algorithm-language": "CSharp",
+   //"algorithm-language": "Python",
 
    //Physical DLL location
-   //"algorithm-location": "QuantConnect.Algorithm.CSharp.dll",
-   "algorithm-location": "../../../Algorithm.Python/TestAlgo.py",
+   "algorithm-location": "QuantConnect.Algorithm.CSharp.dll",
+   //"algorithm-location": "../../../Algorithm.Python/TestAlgo.py",
 
 
    //Research notebook

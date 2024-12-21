@@ -1,11 +1,12 @@
 {
+   // The root directory of the data folder for this application
+   "data-folder": "C:\\Users\\HMz\\AppData\\Roaming\\KiTa\\Data",
+
    "map-file-provider": "LocalDiskMapFileProvider",
    "data-provider": "DefaultDataProvider",
    "log-handler": "CompositeLogHandler",
    "factor-file-provider": "LocalDiskFactorFileProvider",
 
-   // The root directory of the data folder for this application
-   "data-folder": "C:\\Users\\HMz\\AppData\\Roaming\\KiTa\\Data",
 
    // To get your api access token go to quantconnect.com/account
    "job-user-id": "0",

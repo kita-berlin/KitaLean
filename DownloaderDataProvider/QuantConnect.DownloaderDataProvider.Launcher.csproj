@@ -74,5 +74,6 @@
     <PackageReference Include="DotNetZip" Version="1.16.0" />
     <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.6.0" />
     <PackageReference Include="NodaTime" Version="3.2.0" />
+    <PackageReference Include="SevenZip" Version="19.0.0" />
   </ItemGroup>
 </Project>

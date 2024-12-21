@@ -2,7 +2,7 @@
   "profiles": {
     "QuantConnect.DownloaderDataProvider.Launcher": {
       "commandName": "Project",
-      "commandLineArgs": "--tickers EURUSD\r\n--tickers GBPUSD\r\n--data-downloader DukascopyDataDownloader\r\n--data-type Quote\r\n--security-type Forex\r\n--market Dukascopy\r\n--resolution Tick\r\n--start-date 19000101\r\n--end-date 30000101\r\n",
+      "commandLineArgs": "--tickers EURUSD\r\n--tickers GBPUSD\r\n--data-downloader DukascopyDataDownloader\r\n--data-type Quote\r\n--security-type Forex\r\n--market Dukascopy\r\n--resolution Tick\r\n--start-date 20241219\r\n--end-date 20241220\r\n",
       "workingDirectory": "C:\\Users\\HMz\\source\\QuantConnect\\KitaLean\\DownloaderDataProvider"
     }
   }
