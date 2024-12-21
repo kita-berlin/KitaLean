@@ -1,0 +1,44 @@
+{
+   "map-file-provider": "LocalDiskMapFileProvider",
+   "data-provider": "DefaultDataProvider",
+   "log-handler": "CompositeLogHandler",
+   "factor-file-provider": "LocalDiskFactorFileProvider",
+
+   // The root directory of the data folder for this application
+   "data-folder": "C:\\Users\\HMz\\AppData\\Roaming\\KiTa\\Data",
+
+   // To get your api access token go to quantconnect.com/account
+   "job-user-id": "0",
+   "api-access-token": "",
+   "job-organization-id": "",
+
+   // Specifies the name of the brokerage service used for data downloading (optional).
+   "data-downloader-brokerage": ""
+
+   /* 
+    public sealed class DownloaderCommandArguments
+    {
+        public const string CommandDownloaderDataDownloader = "data-downloader";
+        public const string CommandDataType = "data-type";
+        public const string CommandTickers = "tickers";
+        public const string CommandSecurityType = "security-type";
+        public const string CommandMarketName = "market";
+        public const string CommandResolution = "resolution";
+        public const string CommandStartDate = "start-date";
+        public const string CommandEndDate = "end-date";
+    } */
+   /* Uing the command line
+   "data-downloader": "DukascopyDataDownloader",
+   "data-type": "Quote",
+   "security-type": "Forex",
+   "market": "Dukascopy",
+   "resolution": "Tick",
+   "start-date": "19000101",
+   "end-date": "30000101",
+   "tickers": {
+      "EURUSD": "",
+      "GBPUSD": "",
+      "NZDCAD": "",
+      "AUSCAD": ""
+   }*/
+}
