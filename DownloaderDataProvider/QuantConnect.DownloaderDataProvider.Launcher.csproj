@@ -30,6 +30,9 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="log.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="Python.Runtime">
       <HintPath>..\..\Lean\Launcher\bin\Debug\Python.Runtime.dll</HintPath>
     </Reference>

@@ -17,6 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantConnect.Optimizer.Laun
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantConnect.DownloaderDataProvider.Launcher", "DownloaderDataProvider\QuantConnect.DownloaderDataProvider.Launcher.csproj", "{D139191E-50D5-4284-AC9C-247ED60950F4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{EF5BE61A-A847-47DD-94F1-164EF614354A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "market-hours", "market-hours", "{6D881232-0CC4-40E4-A2A6-EE6E9C4CAAEE}"
+	ProjectSection(SolutionItems) = preProject
+		Data\market-hours\market-hours-database.json = Data\market-hours\market-hours-database.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "symbol-properties", "symbol-properties", "{72165508-B2CF-4878-A18A-FA4ACFFD12F6}"
+	ProjectSection(SolutionItems) = preProject
+		Data\symbol-properties\security-database.csv = Data\symbol-properties\security-database.csv
+		Data\symbol-properties\symbol-properties-database.csv = Data\symbol-properties\symbol-properties-database.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +65,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D881232-0CC4-40E4-A2A6-EE6E9C4CAAEE} = {EF5BE61A-A847-47DD-94F1-164EF614354A}
+		{72165508-B2CF-4878-A18A-FA4ACFFD12F6} = {EF5BE61A-A847-47DD-94F1-164EF614354A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67BACDB0-1FDB-4AF0-A199-88CF436FB470}

@@ -1,276 +1,152 @@
-2024-12-21T18:24:32.1049575Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T18:24:32.1387724Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T18:24:32.1869505Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T18:24:32.1870142Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T18:24:32.1870654Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T18:24:32.1877186Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T18:24:32.1878872Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T18:24:32.1888026Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T18:24:32.1949294Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T18:24:32.5657104Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T19:11:11.2478590Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T19:11:11.2826370Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T19:11:11.3496736Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T19:11:11.3497180Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T19:11:11.3497534Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T19:11:11.3504109Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T19:11:11.3505509Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T19:11:11.3506364Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T19:11:11.3550086Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T19:11:11.7886801Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:32:58.7054191Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:32:58.7473025Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:32:58.7891678Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:32:58.7892409Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:32:58.7892895Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:32:58.7899487Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:32:58.7901092Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:32:58.7902088Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:32:58.7931935Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:32:59.1967601Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:34:23.0612221Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:34:23.0981659Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:34:23.1399041Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:34:23.1399626Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:34:23.1400073Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:34:23.1406585Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:34:23.1408099Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:34:23.1409075Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:34:23.1487107Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:34:23.5563258Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:34:46.2432675Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:34:46.2780087Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:34:46.3267118Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:34:46.3267704Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:34:46.3268099Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:34:46.3276297Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:34:46.3278099Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:34:46.3279005Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:34:46.3309106Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:34:46.7444768Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:34:46.7518061Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
-2024-12-21T20:34:46.7518513Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EURUSD B8 at Tick resolution, covering the period from 01.01.1900 00:00:00 to 01.01.3000 00:00:00.
-2024-12-21T20:34:46.7519073Z TRACE:: All downloads completed in 0,01 seconds.
-2024-12-21T20:35:06.0635017Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:35:06.0993677Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:35:06.1455066Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:35:06.1455674Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:35:06.1456166Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:35:06.1463100Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:35:06.1464950Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:35:06.1465983Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:35:06.1497315Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:35:06.5538366Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:35:06.5612481Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
-2024-12-21T20:35:06.5613417Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EURUSD B8 at Tick resolution, covering the period from 01.01.1900 00:00:00 to 01.01.3000 00:00:00.
-2024-12-21T20:35:06.5619802Z TRACE:: All downloads completed in 0,01 seconds.
-2024-12-21T20:35:45.2010030Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:35:45.2368340Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:35:45.2816977Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:35:45.2817530Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:35:45.2817998Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:35:45.2824360Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:35:45.2825894Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:35:45.2826851Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:35:45.2923325Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:35:45.6642497Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:35:45.6714833Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
-2024-12-21T20:35:45.6715453Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EURUSD B8 at Tick resolution, covering the period from 01.01.1900 00:00:00 to 01.01.3000 00:00:00.
-2024-12-21T20:35:45.6716114Z TRACE:: All downloads completed in 0,01 seconds.
-2024-12-21T20:36:22.4958351Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:36:22.5320952Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:36:22.5734699Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:36:22.5735340Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:36:22.5735799Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:36:22.5742503Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:36:22.5744023Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:36:22.5745080Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:36:22.5775206Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:36:23.0094484Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:36:44.6431149Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:36:44.6794237Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:36:44.7250525Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:36:44.7251770Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:36:44.7252423Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:36:44.7260217Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:36:44.7261736Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:36:44.7262676Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:36:44.7293084Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:36:45.1226714Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:38:46.6976065Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:38:46.7349455Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:38:46.7770034Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:38:46.7770570Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:38:46.7771049Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:38:46.7825597Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:38:46.7828326Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:38:46.7829554Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:38:46.7861581Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:38:47.1974222Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:46:18.6155251Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:46:18.6507587Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:46:18.6922590Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:46:18.6923083Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:46:18.6923466Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:46:18.6929849Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:46:18.6931250Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:46:18.6932131Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:46:18.6961544Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:46:19.0841209Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:46:39.6159571Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
-2024-12-21T20:47:51.1236727Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:47:51.1610449Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:47:51.2075738Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:47:51.2076205Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:47:51.2076587Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:47:51.2083021Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:47:51.2084447Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:47:51.2085370Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:47:51.2115614Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:47:51.6099333Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:49:45.9891645Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:49:46.0254698Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:49:46.0671062Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:49:46.0671651Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:49:46.0672122Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:49:46.0679193Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:49:46.0681016Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:49:46.0682081Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:49:46.0760385Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:49:46.4939367Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:56:16.0407885Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:56:16.0755091Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:56:16.1164401Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:56:16.1165000Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:56:16.1165467Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:56:16.1172936Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:56:16.1175237Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:56:16.1188432Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:56:16.1247304Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:56:16.5189445Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:57:42.1244105Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:57:42.1620841Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:57:42.2039654Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:57:42.2040116Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:57:42.2040521Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:57:42.2046945Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:57:42.2048434Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:57:42.2049307Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:57:42.2119442Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:57:42.5862152Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T20:59:39.4679929Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T20:59:39.5031480Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T20:59:39.5447986Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T20:59:39.5448498Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T20:59:39.5448955Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T20:59:39.5456060Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T20:59:39.5457599Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T20:59:39.5458579Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T20:59:39.5532326Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T20:59:39.9632105Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 01.01.1900 00:00:00, EndUtc: 01.01.3000 00:00:00, TickType: Quote
-2024-12-21T21:54:37.9908745Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T21:54:38.0275674Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T21:54:38.0686886Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T21:54:38.0687443Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T21:54:38.0687955Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T21:54:38.0694934Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T21:54:38.0696367Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T21:54:38.0697310Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T21:54:38.0773458Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T21:54:38.4586707Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T21:59:30.3195305Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T21:59:30.3625332Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T21:59:30.4041360Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T21:59:30.4042398Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T21:59:30.4042893Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T21:59:30.4049318Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T21:59:30.4050895Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T21:59:30.4051886Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T21:59:30.4082159Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T21:59:30.8094814Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T22:00:15.7539706Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T22:00:15.7894553Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T22:00:15.8308566Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T22:00:15.8309100Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T22:00:15.8309585Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T22:00:15.8316158Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T22:00:15.8317742Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T22:00:15.8318695Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T22:00:15.8348400Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T22:00:16.2481574Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T22:03:36.4773448Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T22:03:36.5132304Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T22:03:36.5557640Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T22:03:36.5558071Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T22:03:36.5558447Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T22:03:36.5564900Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T22:03:36.5566320Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T22:03:36.5567318Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T22:03:36.5647843Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T22:03:36.9689469Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T22:09:36.1550851Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T22:09:36.1975442Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T22:09:36.2388347Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T22:09:36.2389339Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T22:09:36.2389854Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T22:09:36.2396540Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T22:09:36.2398199Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T22:09:36.2399433Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T22:09:36.2497104Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T22:09:36.6177273Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T22:11:05.5153051Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T22:11:05.5523165Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T22:11:05.5938339Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T22:11:05.5939130Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T22:11:05.5939786Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T22:11:05.5993388Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T22:11:05.5994934Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T22:11:05.5996051Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T22:11:05.6027144Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T22:11:06.0002102Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T22:12:11.1025233Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T22:12:11.1375405Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T22:12:11.1822995Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T22:12:11.1823477Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T22:12:11.1823851Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T22:12:11.1830271Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T22:12:11.1831612Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T22:12:11.1832465Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T22:12:11.1931671Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T22:12:11.5764321Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T22:17:11.7248375Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T22:17:11.7601469Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T22:17:11.8011888Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T22:17:11.8012909Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T22:17:11.8013437Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T22:17:11.8020799Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T22:17:11.8022351Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T22:17:11.8023333Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T22:17:11.8053764Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T22:17:12.1943172Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T22:18:15.1949636Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
-2024-12-21T22:18:15.1950454Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EURUSD B8 at Tick resolution, covering the period from 19.12.2024 00:00:00 to 20.12.2024 00:00:00.
-2024-12-21T22:18:15.1950948Z TRACE:: All downloads completed in 63,00 seconds.
-2024-12-21T22:18:43.1515876Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T22:18:43.1878905Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T22:18:43.2326213Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T22:18:43.2326778Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T22:18:43.2327258Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T22:18:43.2333959Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T22:18:43.2335765Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T22:18:43.2336846Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T22:18:43.2365787Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T22:18:43.6276508Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T22:20:23.9639674Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
-2024-12-21T22:20:24.0003083Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
-2024-12-21T22:20:24.0425917Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
-2024-12-21T22:20:24.0426645Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
-2024-12-21T22:20:24.0427112Z TRACE:: Config.GetValue(): live-mode - Using default value: False
-2024-12-21T22:20:24.0486089Z TRACE:: Config.GetValue(): project-id - Using default value: 0
-2024-12-21T22:20:24.0487959Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
-2024-12-21T22:20:24.0488996Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
-2024-12-21T22:20:24.0522697Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
-2024-12-21T22:20:24.4546945Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EURUSD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
-2024-12-21T22:25:05.7822145Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (1 out of 1 symbols)
-2024-12-21T22:25:07.2787570Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EURUSD B8 at Tick resolution, covering the period from 19.12.2024 00:00:00 to 20.12.2024 00:00:00.
-2024-12-21T22:25:10.6029955Z TRACE:: All downloads completed in 286,14 seconds.
+2024-12-23T08:12:53.9150028Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T08:12:53.9660840Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T08:12:54.0072964Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T08:12:54.0073782Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T08:12:54.0074257Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T08:12:54.0080957Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T08:12:54.0082516Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T08:12:54.0087335Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T08:12:54.0203073Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T08:12:54.4369833Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR/USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T08:15:24.8197979Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T08:15:24.8636690Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T08:15:24.9110131Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T08:15:24.9110645Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T08:15:24.9111074Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T08:15:24.9118082Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T08:15:24.9119636Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T08:15:24.9120626Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T08:15:24.9204018Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T08:15:25.3109171Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR/USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T08:18:47.5805300Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T08:18:47.6228036Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T08:18:47.6675023Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T08:18:47.6675651Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T08:18:47.6676034Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T08:18:47.6682609Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T08:18:47.6684035Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T08:18:47.6684915Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T08:18:47.6757012Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T08:18:48.0382814Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR/USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T08:20:13.9658934Z TRACE:: Downloading data for EUR/USD B8. Please hold on...
+2024-12-23T08:20:14.0881532Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-23T08:20:30.5681476Z TRACE:: DownloaderDataProvider.RunDownload(): 50,00% complete (1 out of 2 symbols)
+2024-12-23T08:20:31.1986830Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EUR/USD B8 at Tick resolution, covering the period from 19.12.2024 00:00:00 to 20.12.2024 00:00:00.
+2024-12-23T08:20:36.8997512Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP/USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T08:20:43.6638504Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (2 out of 2 symbols)
+2024-12-23T08:20:43.6639413Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP/USD B8 at Tick resolution, covering the period from 19.12.2024 00:00:00 to 20.12.2024 00:00:00.
+2024-12-23T08:20:43.6640059Z TRACE:: All downloads completed in 115,63 seconds.
+2024-12-23T10:05:02.0450149Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T10:05:02.0897791Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T10:05:02.1416467Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T10:05:02.1417077Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T10:05:02.1417514Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T10:05:02.1425513Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T10:05:02.1427175Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T10:05:02.1428050Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T10:05:02.1591771Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T10:05:02.5330653Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:05:02.5478561Z ERROR:: EUR_USD does not exits at Dukascopy
+2024-12-23T10:05:02.5479127Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: EUR_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:05:02.5479483Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:05:02.5598467Z ERROR:: GBP_USD does not exits at Dukascopy
+2024-12-23T10:05:02.5599001Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: GBP_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:05:02.5599720Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: NZD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:05:02.5708302Z ERROR:: NZD_CAD does not exits at Dukascopy
+2024-12-23T10:05:02.5709009Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: NZD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:05:02.5709564Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: AUD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:05:02.5818922Z ERROR:: AUD_CAD does not exits at Dukascopy
+2024-12-23T10:05:02.5819611Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: AUD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:05:02.5822305Z TRACE:: All downloads completed in 0,05 seconds.
+2024-12-23T10:07:16.4194213Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T10:07:16.4723196Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T10:07:16.5144790Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T10:07:16.5145376Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T10:07:16.5145820Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T10:07:16.5152370Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T10:07:16.5153805Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T10:07:16.5154798Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T10:07:16.5183923Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T10:07:16.9280513Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:07:16.9458247Z ERROR:: EUR_USD does not exits at Dukascopy
+2024-12-23T10:07:16.9458947Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: EUR_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:07:16.9459386Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:07:16.9569994Z ERROR:: GBP_USD does not exits at Dukascopy
+2024-12-23T10:07:16.9570695Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: GBP_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:07:16.9571728Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: NZD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:07:16.9679838Z ERROR:: NZD_CAD does not exits at Dukascopy
+2024-12-23T10:07:16.9680680Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: NZD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:07:16.9681303Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: AUD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:07:16.9785645Z ERROR:: AUD_CAD does not exits at Dukascopy
+2024-12-23T10:07:16.9786475Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: AUD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:07:16.9788793Z TRACE:: All downloads completed in 0,06 seconds.
+2024-12-23T10:07:28.1017175Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T10:07:28.1462286Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T10:07:28.1921098Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T10:07:28.1921691Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T10:07:28.1922195Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T10:07:28.1929384Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T10:07:28.1931078Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T10:07:28.1932200Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T10:07:28.2011351Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T10:07:28.5971510Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:08:38.8310327Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T10:08:38.8760365Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T10:08:38.9223050Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T10:08:38.9223783Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T10:08:38.9224497Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T10:08:38.9231089Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T10:08:38.9232580Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T10:08:38.9233649Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T10:08:38.9265409Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T10:08:39.3280362Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:08:41.2089312Z ERROR:: EUR_USD does not exits at Dukascopy
+2024-12-23T10:08:41.2090472Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: EUR_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:08:41.2090986Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:08:42.4137849Z ERROR:: GBP_USD does not exits at Dukascopy
+2024-12-23T10:08:42.4139198Z TRACE:: DownloaderDataProvider.Main(): No data available for the following parameters: Symbol: GBP_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:08:42.4140223Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: NZD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:09:26.6963408Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T10:09:26.7409948Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T10:09:26.7875656Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T10:09:26.7876097Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T10:09:26.7876473Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T10:09:26.7882771Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T10:09:26.7884223Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T10:09:26.7885086Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T10:09:26.7960270Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T10:09:27.1874252Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:10:13.7114633Z TRACE:: Config.Get(): Configuration key not found. Key: reserved-words-prefix - Using default value: @
+2024-12-23T10:10:13.8969629Z TRACE:: DownloaderDataProvider.RunDownload(): 25,00% complete (1 out of 4 symbols)
+2024-12-23T10:10:13.8970518Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for EUR_USD B8 at Tick resolution, covering the period from 19.12.2024 00:00:00 to 20.12.2024 00:00:00.
+2024-12-23T10:10:13.8971106Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: GBP_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:10:23.6930456Z TRACE:: DownloaderDataProvider.RunDownload(): 50,00% complete (2 out of 4 symbols)
+2024-12-23T10:10:23.6931363Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for GBP_USD B8 at Tick resolution, covering the period from 19.12.2024 00:00:00 to 20.12.2024 00:00:00.
+2024-12-23T10:10:23.6931914Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: NZD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:10:28.7105997Z TRACE:: DownloaderDataProvider.RunDownload(): 75,00% complete (3 out of 4 symbols)
+2024-12-23T10:10:28.7106922Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for NZD_CAD B8 at Tick resolution, covering the period from 19.12.2024 00:00:00 to 20.12.2024 00:00:00.
+2024-12-23T10:10:28.7107505Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: AUD_CAD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:10:33.6888008Z TRACE:: DownloaderDataProvider.RunDownload(): 100,00% complete (4 out of 4 symbols)
+2024-12-23T10:10:33.6888883Z TRACE:: DownloaderDataProvider.RunDownload(): Download completed for AUD_CAD B8 at Tick resolution, covering the period from 19.12.2024 00:00:00 to 20.12.2024 00:00:00.
+2024-12-23T10:10:33.6889281Z TRACE:: All downloads completed in 66,50 seconds.
+2024-12-23T10:14:38.7282227Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T10:14:38.7730248Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T10:14:38.8186480Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T10:14:38.8186925Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T10:14:38.8187357Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T10:14:38.8194235Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T10:14:38.8195604Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T10:14:38.8196512Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T10:14:38.8269418Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T10:14:38.8296327Z TRACE:: Extensions.IsDirectoryEmpty(): directory '..\..Lean\Data\market-hours' not found or empty
+2024-12-23T10:15:46.0118152Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2024-12-23T10:15:46.0546330Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2024-12-23T10:15:46.0999056Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2024-12-23T10:15:46.1000154Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: 
+2024-12-23T10:15:46.1000697Z TRACE:: Config.GetValue(): live-mode - Using default value: False
+2024-12-23T10:15:46.1007376Z TRACE:: Config.GetValue(): project-id - Using default value: 0
+2024-12-23T10:15:46.1009133Z TRACE:: Config.Get(): Configuration key not found. Key: api-url - Using default value: https://www.quantconnect.com/api/v2/
+2024-12-23T10:15:46.1010386Z TRACE:: Config.Get(): Configuration key not found. Key: results-destination-folder - Using default value: C:\Users\HMz\source\QuantConnect\KitaLean\DownloaderDataProvider
+2024-12-23T10:15:46.1040645Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2024-12-23T10:15:46.5348142Z TRACE:: DownloaderDataProvider.Main(): Starting download Symbol: EUR_USD B8, Resolution: Tick, StartUtc: 19.12.2024 00:00:00, EndUtc: 20.12.2024 00:00:00, TickType: Quote
+2024-12-23T10:15:51.3857598Z ERROR:: MarketHoursDatabase.GetExchangeHours(): Unable to locate exchange hours for Forex-dukascopy-EUR_USD. Available keys: Equity-usa-[*], Future-cme-[*], Future-ice-[*], Future-cbot-[*], Future-nymex-[*], Future-comex-[*], Future-cfe-[*], Future-cbot-ZW, Future-cbot-KE, Future-cme-LBS, Future-cbot-ZC, Future-cbot-ZS, Future-cbot-ZM, Future-cbot-ZL, Future-cbot-ZO, Future-ice-DX, Future-cme-6B, Future-cme-6C, Future-cme-6J, Future-cme-6S, Future-cme-6E, Future-cme-6A, Future-cme-6N, Future-nymex-1S, Future-nymex-22, Future-cme-6L, Future-cme-6M, Future-cme-6R, Future-cme-6Z, Future-nymex-A0D, Future-nymex-A0F, Future-nymex-A1L, Future-nymex-A1M, Future-nymex-A1R, Future-nymex-A32, Future-nymex-A3G, Future-nymex-A7E, Future-nymex-A7I, Future-nymex-A7Q, Future-nymex-A8J, Future-nymex-A8K, Future-nymex-A8O, Future-nymex-A91, Future-nymex-A9N, Future-nymex-AA6, Future-nymex-AA8, Future-nymex-ABS, Future-nymex-ABT, Future-nymex-AC0, Future-cme-ACD, Future-nymex-AD0, Future-nymex-ADB, Future-nymex-AE5, Future-nymex-AGA, Future-nymex-AJL, Future-nymex-AJS, Future-cme-AJY, Future-nymex-AKL, Future-nymex-AKZ, Future-cme-ANE, Future-nymex-APS, Future-nymex-AR0, Future-nymex-ARE, Future-comex-AUP, Future-nymex-AVZ, Future-cbot-AW, Future-nymex-AYV, Future-nymex-AYX, Future-nymex-AZ1, Future-nymex-B0, Future-nymex-B7H, Future-cbot-BCF, Future-cme-BIO, Future-nymex-BK, Future-nymex-BOO, Future-nymex-BR7, Future-cme-BTC, Future-cbot-BWF, Future-nymex-BZ, Future-cme-CB, Future-cme-CJY, Future-nymex-CL, Future-cme-CNH, Future-nymex-CRB, Future-cme-CSC, Future-nymex-CSW, Future-nymex-CSX, Future-nymex-CU, Future-nymex-D1N, Future-cme-DC, Future-nymex-DCB, Future-cme-DY, Future-nymex-E6, Future-cme-E7, Future-cme-EAD, Future-cme-ECD, Future-comex-EDP, Future-cbot-EH, Future-cme-EI, Future-cme-EMD, Future-nymex-EN, Future-nymex-EPN, Future-cme-ESK, Future-cme-ETH, Future-nymex-EVC, Future-nymex-EWG, Future-nymex-EWN, Future-nymex-EXR, Future-cbot-F1U, Future-cbot-UB, Future-cbot-TN, Future-nymex-FO, Future-nymex-FRC, Future-nymex-FSS, Future-nymex-GCU, Future-cme-GD, Future-cme-GDK, Future-cme-GNF, Future-nymex-HCL, Future-comex-HG, Future-nymex-HH, Future-nymex-HO, Future-nymex-HP, Future-nymex-HRC, Future-nymex-HTT, Future-cme-IBV, Future-cme-FTU, Future-cme-FT1, Future-cme-FT5, Future-cme-J7, Future-nymex-RB, Future-nymex-NG, Future-cbot-ZB, Future-cbot-ZN, Future-cbot-ZF, Future-cbot-ZT, Future-cme-GE, Future-cme-ES, Future-cme-ESG, Future-cme-RS1, Future-cme-SDA, Future-cme-NQ, Future-cme-RTY, Future-cbot-YM, Future-cfe-VX, Future-cme-E3G, Future-cme-ENY, Future-cme-NIY, Future-cme-NKD, Future-cme-LE, Future-cme-GF, Future-cme-HE, Future-comex-GC, Future-comex-SI, Future-cme-TPY, Future-cme-TPD, Future-cme-RX, Future-nymex-PL, Future-nymex-PA, Future-ice-CT, Future-ice-OJ, Future-ice-KC, Future-ice-SB, Future-nymex-YO, Future-cme-LBR, Future-ice-CC, Future-ice-B, Future-ice-G, Future-sgx-[*], Future-nfo-[*], Future-sgx-NK, Future-sgx-TW, Future-sgx-IN, Forex-fxcm-[*], Forex-oanda-[*], Forex-oanda-GBPNZD, Forex-oanda-EURNZD, Forex-oanda-NZDCAD, Forex-oanda-NZDCHF, Forex-oanda-NZDHKD, Forex-oanda-NZDJPY, Forex-oanda-NZDSGD, Forex-oanda-NZDUSD, Cfd-fxcm-[*], Cfd-fxcm-AU200AUD, Cfd-fxcm-BCOUSD, Cfd-fxcm-CH20CHF, Cfd-fxcm-DE10YBEUR, Cfd-fxcm-DE30EUR, Cfd-fxcm-DXYUSD, Cfd-fxcm-ES35EUR, Cfd-fxcm-EU50EUR, Cfd-fxcm-FR40EUR, Cfd-fxcm-HK33HKD, Cfd-fxcm-IT40EUR, Cfd-fxcm-JP225JPY, Cfd-fxcm-NAS100USD, Cfd-fxcm-NATGASUSD, Cfd-fxcm-SPX500USD, Cfd-fxcm-UK100GBP, Cfd-fxcm-US30USD, Cfd-fxcm-WTICOUSD, Cfd-fxcm-XAGUSD, Cfd-fxcm-XAUUSD, Cfd-fxcm-XCUUSD, Cfd-fxcm-XPDUSD, Cfd-fxcm-XPTUSD, Cfd-oanda-[*], Cfd-oanda-AU200AUD, Cfd-oanda-BCOUSD, Cfd-oanda-CH20CHF, Cfd-oanda-CORNUSD, Cfd-oanda-DE10YBEUR, Cfd-oanda-DE30EUR, Cfd-oanda-EU50EUR, Cfd-oanda-FR40EUR, Cfd-oanda-HK33HKD, Cfd-oanda-JP225USD, Cfd-oanda-NAS100USD, Cfd-oanda-NATGASUSD, Cfd-oanda-NL25EUR, Cfd-oanda-SG30SGD, Cfd-oanda-SOYBNUSD, Cfd-oanda-SPX500USD, Cfd-oanda-SUGARUSD, Cfd-oanda-UK100GBP, Cfd-oanda-UK10YBGBP, Cfd-oanda-US2000USD, Cfd-oanda-US30USD, Cfd-oanda-USB02YUSD, Cfd-oanda-USB05YUSD, Cfd-oanda-USB10YUSD, Cfd-oanda-USB30YUSD, Cfd-oanda-WHEATUSD, Cfd-oanda-WTICOUSD, Cfd-oanda-XAGAUD, Cfd-oanda-XAGCAD, Cfd-oanda-XAGCHF, Cfd-oanda-XAGEUR, Cfd-oanda-XAGGBP, Cfd-oanda-XAGHKD, Cfd-oanda-XAGJPY, Cfd-oanda-XAGNZD, Cfd-oanda-XAGSGD, Cfd-oanda-XAGUSD, Cfd-oanda-XAUAUD, Cfd-oanda-XAUCAD, Cfd-oanda-XAUCHF, Cfd-oanda-XAUEUR, Cfd-oanda-XAUGBP, Cfd-oanda-XAUHKD, Cfd-oanda-XAUJPY, Cfd-oanda-XAUNZD, Cfd-oanda-XAUSGD, Cfd-oanda-XAUUSD, Cfd-oanda-XAUXAG, Cfd-oanda-XCUUSD, Cfd-oanda-XPDUSD, Cfd-oanda-XPTUSD, Cfd-interactivebrokers-[*], Cfd-interactivebrokers-IBUS500, Cfd-interactivebrokers-IBUS30, Cfd-interactivebrokers-IBUST100, Cfd-interactivebrokers-IBGB100, Cfd-interactivebrokers-IBEU50, Cfd-interactivebrokers-IBDE40, Cfd-interactivebrokers-IBFR40, Cfd-interactivebrokers-IBES35, Cfd-interactivebrokers-IBNL25, Cfd-interactivebrokers-IBCH20, Cfd-interactivebrokers-IBJP225, Cfd-interactivebrokers-IBHK50, Cfd-interactivebrokers-IBAU200, Cfd-interactivebrokers-XAUUSD, Cfd-interactivebrokers-XAGUSD, Crypto-coinbase-[*], Crypto-bitfinex-[*], Base-empty-[*], CryptoFuture-binance-[*], Cfd-interactivebrokers-AUDCAD, Cfd-interactivebrokers-AUDCHF, Cfd-interactivebrokers-AUDCNH, Cfd-interactivebrokers-AUDHKD, Cfd-interactivebrokers-AUDJPY, Cfd-interactivebrokers-AUDNZD, Cfd-interactivebrokers-AUDSGD, Cfd-interactivebrokers-AUDUSD, Cfd-interactivebrokers-AUDZAR, Cfd-interactivebrokers-CADCHF, Cfd-interactivebrokers-CADCNH, Cfd-interactivebrokers-CADHKD, Cfd-interactivebrokers-CADJPY, Cfd-interactivebrokers-CHFCNH, Cfd-interactivebrokers-CHFCZK, Cfd-interactivebrokers-CHFDKK, Cfd-interactivebrokers-CHFHUF, Cfd-interactivebrokers-CHFJPY, Cfd-interactivebrokers-CHFNOK, Cfd-interactivebrokers-CHFPLN, Cfd-interactivebrokers-CHFSEK, Cfd-interactivebrokers-CHFZAR, Cfd-interactivebrokers-CNHHKD, Cfd-interactivebrokers-CNHJPY, Cfd-interactivebrokers-DKKJPY, Cfd-interactivebrokers-DKKNOK, Cfd-interactivebrokers-DKKSEK, Cfd-interactivebrokers-EURAUD, Cfd-interactivebrokers-EURCAD, Cfd-interactivebrokers-EURCHF, Cfd-interactivebrokers-EURCNH, Cfd-interactivebrokers-EURCZK, Cfd-interactivebrokers-EURDKK, Cfd-interactivebrokers-EURGBP, Cfd-interactivebrokers-EURHKD, Cfd-interactivebrokers-EURHUF, Cfd-interactivebrokers-EURILS, Cfd-interactivebrokers-EURJPY, Cfd-interactivebrokers-EURMXN, Cfd-interactivebrokers-EURNOK, Cfd-interactivebrokers-EURNZD, Cfd-interactivebrokers-EURPLN, Cfd-interactivebrokers-EURRUB, Cfd-interactivebrokers-EURSEK, Cfd-interactivebrokers-EURSGD, Cfd-interactivebrokers-EURUSD, Cfd-interactivebrokers-EURZAR, Cfd-interactivebrokers-GBPAUD, Cfd-interactivebrokers-GBPCAD, Cfd-interactivebrokers-GBPCHF, Cfd-interactivebrokers-GBPCNH, Cfd-interactivebrokers-GBPCZK, Cfd-interactivebrokers-GBPDKK, Cfd-interactivebrokers-GBPHKD, Cfd-interactivebrokers-GBPHUF, Cfd-interactivebrokers-GBPJPY, Cfd-interactivebrokers-GBPMXN, Cfd-interactivebrokers-GBPNOK, Cfd-interactivebrokers-GBPNZD, Cfd-interactivebrokers-GBPPLN, Cfd-interactivebrokers-GBPSEK, Cfd-interactivebrokers-GBPSGD, Cfd-interactivebrokers-GBPUSD, Cfd-interactivebrokers-GBPZAR, Cfd-interactivebrokers-HKDJPY, Cfd-interactivebrokers-MXNJPY, Cfd-interactivebrokers-NOKJPY, Cfd-interactivebrokers-NOKSEK, Cfd-interactivebrokers-NZDCAD, Cfd-interactivebrokers-NZDCHF, Cfd-interactivebrokers-NZDJPY, Cfd-interactivebrokers-NZDUSD, Cfd-interactivebrokers-SEKJPY, Cfd-interactivebrokers-SGDCNH, Cfd-interactivebrokers-SGDJPY, Cfd-interactivebrokers-USDCAD, Cfd-interactivebrokers-USDCHF, Cfd-interactivebrokers-USDCNH, Cfd-interactivebrokers-USDCZK, Cfd-interactivebrokers-USDDKK, Cfd-interactivebrokers-USDHKD, Cfd-interactivebrokers-USDHUF, Cfd-interactivebrokers-USDILS, Cfd-interactivebrokers-USDJPY, Cfd-interactivebrokers-USDMXN, Cfd-interactivebrokers-USDNOK, Cfd-interactivebrokers-USDPLN, Cfd-interactivebrokers-USDRUB, Cfd-interactivebrokers-USDSEK, Cfd-interactivebrokers-USDSGD, Cfd-interactivebrokers-USDZAR, Cfd-interactivebrokers-ZARJPY, Crypto-binance-[*], Crypto-binanceus-[*], Index-india-[*], Equity-india-[*], Future-india-[*], Index-usa-[*], Index-usa-VIX, Index-usa-NDX, Index-usa-SPX, Crypto-kraken-[*], Crypto-ftx-[*], Crypto-ftxus-[*], Future-cme-MES, Future-cme-MNQ, Future-cme-M6E, Future-cme-M2K, Future-cbot-MYM, Future-comex-MGC, Future-cme-MET, Future-cme-MBT, Future-nymex-MCL, Future-cme-M6A, Future-comex-SIL, Future-nymex-S5O, Future-cme-M6B, Future-cme-MCD, Future-nymex-M1B, Future-nymex-R5O, Future-cbot-10Y, Future-cme-MJY, Future-cme-MSF, Future-cbot-2YY, Future-nymex-MAF, Future-nymex-MEF, Future-cbot-30Y, Future-cme-M6J, Future-cme-MIR, Future-cme-M6C, Future-cme-M6S, Future-cbot-5YY, Future-cme-MNH, Future-nymex-M5F, Future-nymex-M35, Future-nymex-PAM, Future-comex-MGT, Future-nyseliffe-[*], CryptoFuture-bybit-[*], Crypto-bybit-[*], Index-eurex-[*], Future-eurex-FESX, Option-usa-[*], Option-india-[*], IndexOption-usa-[*], IndexOption-usa-VIX, IndexOption-usa-NDX, IndexOption-usa-SPX, IndexOption-usa-SPXW

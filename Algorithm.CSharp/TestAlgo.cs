@@ -7,6 +7,7 @@ using QuantConnect.Data.Market;
 using QuantConnect.Securities.Forex;
 using System;
 using System.Linq;
+using static QuantConnect.Messages;
 
 namespace QuantConnect.Algorithm.CSharp
 {
@@ -18,12 +19,14 @@ namespace QuantConnect.Algorithm.CSharp
         /// </summary>
         public override void Initialize()
         {
-            SetStartDate(2014, 5, 1);  // Start date
-            SetEndDate(2014, 5, 14); // End date
-            SetCash(100000); // Starting cash in USD
+            var start = new DateTime(2014, 5, 1);
+            var end = DateTime.Now;
+            SetStartDate(start);  // Start date
+            SetEndDate(end); // End date
+            SetCash(10_000); // Starting cash in USD
 
-            var forex = AddForex("EURUSD", Resolution.Tick, Market.Oanda);
-            //var history = History<QuoteBar>(forex.Symbol, TimeSpan.FromDays(30));
+            var forex = AddForex("EUR_USD", Resolution.Tick, Market.Dukascopy);
+            var history = History<Tick>(forex.Symbol, start, end);
         }
 
         /// <summary>
